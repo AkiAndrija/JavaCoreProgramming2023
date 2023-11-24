@@ -12,10 +12,10 @@ import java.util.Random;
 
 public class Homework3 {
     public static void main(String[] args) {
-        int [] numbers = {32, 87, 589, 13, 23, 107876, 2000, 8, 6222, 12};
+        int[] numbers = {32, 87, 589, 13, 23, 107876, 2000, 8, 6222, 12};
         //trik koji ce vam pomoci po slucajnom uzorku generiste brojeve od 0 do 1000;
         Random random = new Random();
-                int number = random.nextInt(0,1000);
+        int number = random.nextInt(0, 1000);
 
     }
 }
